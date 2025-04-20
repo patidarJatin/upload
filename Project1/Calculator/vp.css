@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 226, 219);
+}
+
+main{
+    
+    padding: 7px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.content{
+    width: 400px;
+    border: 2px solid black;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* result ko add just kiya */
+#res{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: semibold;
+    
+}
+
+/* input container ko asi kiya */
+#a{
+    padding: 2px 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+#b{
+    padding: 2px 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+/* btn ko sai kiya */
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+/* aak akre button ko sai kar raha hu */
+#add{
+    background-color:rgb(127, 115, 115);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 5px;
+
+}
+#sub{
+    background-color:rgb(127, 115, 115);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 5px;
+}
+#mut{
+    background-color:rgb(127, 115, 115);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 5px;
+}
+#divd{
+    background-color:rgb(127, 115, 115);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 5px;
+}
